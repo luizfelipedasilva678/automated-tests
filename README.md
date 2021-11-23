@@ -1,2 +1,2 @@
 # automated-tests
-Automated tests with JEst
+Automated tests with Jest
