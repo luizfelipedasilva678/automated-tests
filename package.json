@@ -1,9 +1,11 @@
 {
-  "name": "solid-principles",
+  "name": "automated-tests",
   "version": "1.0.0",
   "description": "Examples of solid principles in TypeScript",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
+    "test:silent":"jest --watchAll --silent --noStackTrace"
   },
   "keywords": [],
   "author": "",
