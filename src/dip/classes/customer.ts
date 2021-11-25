@@ -16,7 +16,7 @@ export class Individual implements IndividualCustomer, CustomerOrder {
   }
 
   getName(): string {
-    return this.firstName + this.lastName;
+    return this.firstName + ' ' + this.lastName;
   }
 
   getIDN(): string {
